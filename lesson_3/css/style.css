@@ -1,0 +1,38 @@
+* {
+	color:darkgrey;
+}
+
+a {
+	 color: rgb(0, 106, 0); 
+}
+
+.block > p {
+	 color: rgb(51, 0, 216); 
+}
+
+#list * {
+	 color: rgb(122, 0, 183); 
+}
+
+.text.test {
+	 color: rgb(197, 145, 0);
+}
+.box .deep_box p {
+	 color: blue;
+}
+
+[class*="title"] {
+	color: orange; 
+}
+
+.title, title_logo {
+	color: black;
+}
+
+.test ~ a {
+	 color: red; 
+}
+
+.test ~ a + p {
+	 color: black; 
+}
