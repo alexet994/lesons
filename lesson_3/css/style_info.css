@@ -1,0 +1,9 @@
+.tag {
+   color: red;
+}
+.block >h2 {
+   color:blue;
+}
+.block >h2 ~p {
+   color: darkblue;
+}
