@@ -10,11 +10,11 @@ body {
 @font-face {
 	font-family: 'RubikWetPaint-Regular';
 	src: url(../fonts/RubikWetPaint-Regular.woff2) format('woff2'),url(../fonts/RubikWetPaint-Regular.woff) format('woff');
- }
- .font_rubik{
+}
+.font_rubik{
 	font-family: 'RubikWetPaint-Regular', cursive;
 
- }
+}
 .title {
 	font-family: 'Pacifico', cursive;
 	text-transform: uppercase;
