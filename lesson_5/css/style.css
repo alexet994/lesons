@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #6C757D;
+}
+P {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.79;
+	margin-bottom: 40px;
+}
+h2{
+	font-weight: 700;
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	padding-bottom: 40px;
+}
+header{
+	padding-bottom: 80px;
+}
+#sand_image {
+	max-width: 100%;
+}
+.images{
+	max-width: 1240px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+}
+.block {
+	max-width: 816px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.info {
+	margin-bottom: 15px;
+}
+.info > span {
+	font-weight: 300;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 1.67;
+}
+.info >img {
+	margin: 0 5px;
+	vertical-align: middle;
+}
+#by{
+font-weight: 700;
+}
+.images > img {
+	max-width: 100%;
+}
+.images > [alt*="lake"] {
+	margin-left: 30px;
+}
+
+
+
+
+
+.padding > div {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: red;
+	color: white;
+}
+#padding_1{
+	padding: 10px;
+}
+#padding_2 {
+	padding: 20px 30px;
+}
+#padding_3 {
+	padding: 30px 20px 15px;
+}
+#padding_4 {
+	padding: 5px 15px 25px 35px;
+}
+.margin > div {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	color: white;
+}
+#margin_1{
+	margin: 10px;
+}
+#margin_2 {
+	margin: 20px 30px;
+}
+#margin_3 {
+	margin: 30px 20px 15px;
+}
+#margin_4 {
+	margin: 5px 15px 25px -55px;
+}
+.width_max {
+	max-width: 100%;
+	height: 20px;
+	background: yellow;
+}
+.width_min {
+	min-width: 1200px;
+	height: 20px;
+	background: black;
+}
+.overflow > p {
+	max-height: 100px;
+	width: 100px;
+	
+	background: wheat;
+}
+.visible {
+	overflow: visible;
+}
+.hiden{
+	overflow: hidden;
+}
+.clip{
+	overflow: clip;
+}
+.scroll{
+	overflow: scroll;
+}
+.auto{
+	overflow: auto;
+}
+.box-sizing {
+	width: 400px; 
+	box-sizing: content-box;
+	padding-left: 50px;
+	background: green;
+	padding-bottom: 100px;
+}
+.vertical-align {
+	margin-left: 400px;
+	background: yellow;
+	color: blue;
+	min-height: 200px;
+}
+.vertical-align > img{
+ height: 220px;
+}
+.vertical-align >div {
+	display: inline; 
+	font-size: 36px;
+	width: 100px;
+
+}
+.vertical-align_1{vertical-align: top;}
+.vertical-align_2{vertical-align: bottom;}
+
