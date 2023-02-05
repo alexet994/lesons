@@ -16,23 +16,23 @@ h2{
 	color: #212529;
 	font-size: 25px;
 	line-height: 1.6;
-	padding-bottom: 40px;
+	margin-bottom: 40px;
 }
 header{
-	padding-bottom: 80px;
+	margin-bottom: 80px;
 }
 #sand_image {
 	max-width: 100%;
 }
 .images{
 	max-width: 1240px;
-	padding-bottom: 80px;
+	margin-bottom: 80px;
 	margin: 0 auto;
 }
 .block {
 	max-width: 816px;
 	margin: 0 auto;
-	padding-bottom: 40px;
+	margin-bottom: 40px;
 }
 .info {
 	margin-bottom: 15px;
@@ -53,8 +53,8 @@ font-weight: 700;
 .images > img {
 	max-width: 100%;
 }
-.images > [alt*="lake"] {
-	margin-left: 30px;
+.images > [alt*="girl"] {
+	margin-right: 30px;
 }
 
 
