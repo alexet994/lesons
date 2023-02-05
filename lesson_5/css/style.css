@@ -28,9 +28,6 @@ header{
 	max-width: 1240px;
 	margin: 0 auto;
 }
-.images>img{
-	margin-bottom: 80px;
-}
 .block {
 	max-width: 816px;
 	margin: 0 auto;
@@ -54,6 +51,7 @@ font-weight: 700;
 }
 .images > img {
 	max-width: 100%;
+	margin-bottom: 80px;
 }
 .images > [alt*="girl"] {
 	margin-right: 30px;
