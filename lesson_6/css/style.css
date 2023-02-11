@@ -1,0 +1,113 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	
+}
+[class*="__container"]{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+[class*="article__text"] {
+	max-width: 816px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+[class*="article__title"]{
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	margin-bottom: 40px;
+}
+
+[class*="article__text"]>p {
+	font-weight: 300;
+	color: #6C757D;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.79;
+	margin-bottom: 30px;
+}
+
+.images > img {
+	max-width: 100%;
+	margin-bottom: 80px;
+	border-radius: 5px;
+}
+[src*=girl] {
+	margin-right: 30px;
+}
+
+.image__fullscreen > img {
+	width: 100%;
+	margin-bottom: 100px;
+}
+.article__text-box2  {
+	margin-bottom: 100px;
+}
+.article__title2 {
+   margin-bottom: 100px;	
+}
+.images2 > img {
+	max-width: 100%;
+	margin-bottom: 100px;
+	border-radius: 5px;
+}
+[src*=clothes] {
+	margin-right: 30px;
+}
+.article__text-box2>p~p {
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+.properties__border > div {
+	border-right: 2px dotted red;
+	border-top: 4px solid black ;
+	border-bottom:  1px dashed green;
+	border-left: 3px double yellow;
+	box-shadow: 0px 0px 20px 0px #000;
+	
+}
+.inline-block {
+	display: inline-block;
+}
+.inline{
+	display: inline;
+}
+[class*="block"]{
+	height: 100px;
+	width: 200px;
+	background: silver;
+	margin: 15px;
+}
+.properties__outline > div{
+	outline: 5px  solid black ;
+	border-radius: 25px ;
+	box-shadow: inset 0px 0px 20px 0px #000;
+	margin-bottom: 100px;
+}
+.properties__outline > div ~div ~div {
+	opacity: 0.5
+}
+
+
+.visibility >ul>li~ li {
+	visibility: hidden;
+}
+.visibility >ul>li~li~li {
+	display: none;
+}
+.visibility >ul>li~li~li ~li {
+	opacity: 0.1;
+}
