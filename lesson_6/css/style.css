@@ -40,6 +40,9 @@ body {
 	margin-bottom: 80px;
 	border-radius: 5px;
 }
+.images,.images2 {
+	font-size: 0px;
+}
 [src*=girl] {
 	margin-right: 30px;
 }
