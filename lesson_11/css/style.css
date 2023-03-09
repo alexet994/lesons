@@ -1,6 +1,6 @@
 @import url("reset.css");
 @import url("common.css");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 body {
 	font-family: 'Inter', sans-serif;
 	background-color: silver;
@@ -35,11 +35,11 @@ body {
 	color: #3056D3;
 }
 
-.menu__item-parent:hover{
+.menu__item--parent:hover{
 	background: #F4F7FF;
 	color: #212B36;
 }
-.menu__item-parent{
+.menu__item--parent{
 	position: relative;
 }
 
@@ -147,7 +147,7 @@ body {
 .sub-menu__link:hover,.deeper-sub-menu__item:hover{
 	color:#3056D3 ;
 }
-.sub-menu__item-parent::after{
+.sub-menu__item--parent::after{
 	position: relative;
 	left: 67px;
 	content: "";
@@ -157,7 +157,7 @@ body {
 	background: url(../img/icons/arow-right.svg) no-repeat;
 }
 
-.sub-menu__item-parent:hover .sub-menu__deeper-sub-menu{
+.sub-menu__item--parent:hover .sub-menu__deeper-sub-menu{
 	opacity: 1;
 	visibility: visible;
 	pointer-events: all;
@@ -204,12 +204,12 @@ body {
 	background-color: #E7E7E7;
 	position: sticky;
 }
-.main__sticky:first-of-type{
+.main__sticky--blue{
 	background-color: #3056d3;
 	z-index: 2;
 	top:140px;
 }
-.main__sticky:last-of-type{
+.main__sticky--dark-blue{
 	background-color: #212e5a;
 	z-index: 2;
 	top:180px;
