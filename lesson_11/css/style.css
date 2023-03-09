@@ -43,7 +43,7 @@ body {
 	position: relative;
 }
 
-.menu__item-parent::after{
+.menu__item--parent::after{
 	position: relative;
 	left: 13px;
 	content:"";
