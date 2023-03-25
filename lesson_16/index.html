@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<!-- FLEX-container -->
+	<div class="wrapper">
+		<header>
+		</header>
+		<main class="page">
+			<div class="page__checkout checkout">
+				<div class="checkout__container">
+					<div class="checkout__header">
+						<div class="checkout__title">
+							Checkout
+						</div>
+						<span class="checkout__number">
+							There are 3 products in your cart
+						</span>
+					</div>
+					<div class="checkout__body">
+						<div class="checkout__details">
+							<div class="checkout__sub-title">
+								Billing Details
+							</div>
+							<form action="#" class="checkout__box box-checkout" method="post">
+								<div class="box-checkout__input">
+									<input type="text" required placeholder="First name*" minlength="3" name="name">
+								</div>
+								<div class="box-checkout__input">
+									<input type="text" required placeholder="Last name*" minlength="3" name="last-name">
+								</div>
+								<div class="box-checkout__input">
+									<input type="text" required placeholder="Address*" minlength="3" name="adress">
+								</div>
+
+								<div class="box-checkout__input">
+									<input type="text" placeholder="Address line 2" name="adress-2">
+								</div>
+								<div class="box-checkout__input">
+									<select name="country" id="country" class="box-checkout__select">
+										<option value="uk">Ukraine</option>
+										<option value="usa">USA</option>
+									</select>
+								</div>
+								<div class="box-checkout__input">
+									<input type="text" required placeholder="City/Town*" minlength="3" name="city">
+								</div>
+								<div class="box-checkout__input">
+									<input type="text" required placeholder="Postcode / ZIP*" minlength="3" name="zip">
+								</div>
+								<div class="box-checkout__input">
+									<input type="tel" required placeholder="Phone*" minlength="3" name="phone">
+								</div>
+								<div class="box-checkout__input">
+									<input type="text" required placeholder="Postcode / ZIP*" minlength="3" name="zip">
+								</div>
+								<div class="box-checkout__input">
+									<input type="tel" required placeholder="Phone*" minlength="3" name="phone">
+								</div>
+								<div class="box-checkout__text-area">
+									<textarea name="info" id="info" placeholder="Additional information"></textarea>
+								</div>
+								<div class="box-checkout__bot-box box-bot">
+									<div class="box-bot__checks">
+										<div class="box-bot__check checkbox">
+											<input type="checkbox" name="create-check" id="create-check" class="checkbox__input">
+											<label for="create-check" class="checkbox__label">Create Account</label>
+										</div>
+										<div class="box-bot__check">
+											<input type="checkbox" name="ship-check" id="ship-check" class="checkbox__input">
+											<label for="ship-check" class="checkbox__label">Ship to a different address?</label>
+										</div>
+									</div>
+									<div class="box-bot__coupons">
+										<div class="box-bot__sub-title">
+											Apply Coupon to get discount!
+										</div>
+										<div class="box-bot__coupons-flexbox">
+											<div class="box-bot__coupon">
+												<input type="text" placeholder="Coupon code" minlength="3" name="coupon"
+													id="coupon">
+											</div>
+											<div class="box-bot__btn">
+												<button type="button">Apply Code</button>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</form>
+
+						</div>
+						<div class="checkout__order">
+							<div class="checkout__sub-title">
+								Your Order
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__shiping shiping">
+				<div class="page__container-shiping">
+					<div class="shiping__block-form">
+						<div class="shiping__login login">
+							<div class="login__title shiping-title ">
+								Shipping Address
+							</div>
+							<form action="post" class="form-login">
+								<div class="form-login__item form-login__item--mb27">
+									<label for="email" class="form-login__label">Email Address <span
+											class="form-login__label--red">*</span></label>
+									<input type="email" class="form-login__input" name="email" id="email"
+										placeholder="roni_cost@example.com">
+								</div>
+								<div class="form-login__item form-login__item--mb24">
+									<label for="pass" class="form-login__label">Password <span
+											class="form-login__label--red">*</span></label>
+									<input type="password" class="form-login__input" name="pass" id="pass"
+										placeholder="************************************">
+								</div>
+								<div class="form-login__item">
+									<label for="zip" class="form-login__label">Zip/Postal Code<span
+											class="form-login__label--red">*</span></label>
+									<input type="text" class="form-login__input" name="zip" id="zip">
+								</div>
+								<div class="form-login__info">
+									You already have an account with us. Sign in or continue as guest.
+								</div>
+								<button type="submit" class="form-login__btn btn-black">login</button>
+							</form>
+						</div>
+						<div class="shipping__info">
+							<form action="post" class="form-info">
+								<div class="form-info__item">
+									<label for="name" class="form-info__label">First Name <span
+											class="form-info__label--red">*</span></label>
+									<input type="text" class="form-info__input" name="name" id="name" required>
+								</div>
+								<div class="form-info__item">
+									<label for="last-name" class="form-info__label">Last Name <span
+											class="form-info__label--red">*</span></label>
+									<input type="text" class="form-info__input" name="last-name" id="last-name" required>
+								</div>
+								<div class="form-info__item">
+									<label for="company" class="form-info__label">Company </label>
+									<input type="text" class="form-info__input" name="company" id="company">
+								</div>
+								<div class="form-info__item">
+									<label for="last-name" class="form-info__label form-info__label--flex-start">Street Address
+										<span class="form-info__label--red">*</span></label>
+									<div class="items-body">
+										<div class="form-info__input-box box-input">
+											<input type="text" class="box-input__input" name="adress-info" id="adress-info"
+												required>
+											<input type="text" class="box-input__input" name="adress-info" id="adress-info">
+											<input type="text" class="box-input__input" name="adress-info" id="adress-info">
+										</div>
+									</div>
+								</div>
+								<div class="form-info__item">
+									<label for="country" class="form-info__label">Country <span
+											class="form-info__label--red">*</span></label>
+									<input type="text" class="form-info__input" name="country" id="contry">
+								</div>
+								<div class="form-info__item">
+									<label for="state" class="form-info__label">State/Province <span
+											class="form-info__label--red">*</span></label>
+									<input type="text" class="form-info__input" name="state" id="state"
+										placeholder="Please select a region, state or province">
+								</div>
+								<div class="form-info__title shiping-title">
+									Shipping Methods
+								</div>
+								<div class="form-info__radio-block ">
+									<div class="block-radio">
+										<input type="radio" class="form-info__radio" name="ship-price" id="ship-price" required>
+										<label for="ship-price" class="form-info__label-radio radio-label">
+											<span class="radio-label__price">$5.00</span>
+											<span class="radio-label__text">Fixed</span>
+											<span class="radio-label__text">Flat Rate</span>
+										</label>
+									</div>
+									<div class="block-radio block-radio--top-line-sm">
+										<input type="radio" class="form-info__radio" name="ship-price" id="ship-price-2" required>
+										<label for="ship-price-2" class="form-info__label-radio radio-label">
+											<span class="radio-label__price">$10.00</span>
+											<span class="radio-label__text">Fixed</span>
+											<span class="radio-label__text">Flat Rate</span>
+										</label>
+									</div>
+								</div>
+								<div class="form-info__buttons">
+									<button type="submit" class="form-info__button btn-black">next</button>
+									<button type="reset" class="form-info__button btn-grey">Back</button>
+								</div>
+							</form>
+
+						</div>
+					</div>
+					<div class="shiping__order-summary">
+
+					</div>
+				</div>
+
+			</div>
+		</main>
+		<footer>
+		</footer>
+	</div>
+</body>
+
+</html>
