@@ -1,0 +1,40 @@
+.shiping-title{
+	font-family: 'Oswald';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 2.83;
+	color: #000000;
+}
+
+.btn-black{
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 14.5px 43px;
+	transition: background-color ease 0.3s ;
+}
+.btn-black:hover{
+	background-color: #EB5757;
+}
+.form-info__buttons{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.btn-grey{
+	color: #828282;
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding: 14.5px 43px;
+}
