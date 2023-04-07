@@ -790,11 +790,9 @@ button {
   border-top: 3px solid #000000;
 }
 
-/*
-.text {
-	color: blue;
-	span {
-		color: green;
+.aricle-page__date{
+		font-weight: 300;
+		font-size: 13px;
+		line-height: 2.83;
+		color: #4F4F4F;
 	}
-}
-*/
