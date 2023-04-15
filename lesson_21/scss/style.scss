@@ -229,6 +229,9 @@ body {
 	height: 100vh;
 	display: flex;
 	align-items: flex-end;
+	@media (max-width:rem(600)){
+		height: 62.5vh;
+	}
 
 	// .slider__container
 
