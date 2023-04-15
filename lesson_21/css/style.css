@@ -252,6 +252,11 @@ body {
       -ms-flex-align: end;
           align-items: flex-end;
 }
+@media (max-width: 37.5rem) {
+  .slider {
+    height: 62.5vh;
+  }
+}
 .slider__container {
   position: relative;
   z-index: 2;
@@ -503,6 +508,7 @@ body {
   line-height: 1.6;
   text-align: center;
   color: #F8F9FA;
+  text-transform: uppercase;
 }
 
 .item-topics {
@@ -713,33 +719,3 @@ body {
     font-size: 0.9375rem;
   }
 }
-/*
-:root {
-	--mainColor: #000;
-}
-*/
-/*
-.block {
-	--mainColor: #000;
-}
-*/
-/*
-:root {
-	--mainColor: green;
-}
-
-// Персональні змінні
-.block {
-	--mainColor: #000;
-	color: var(--mainColor);
-}
-// Глобальні змінні
-.text {
-	color: var(--mainColor);
-}*/
-/*
-.block {
-	background-color: #77608d;
-	width: calc(100% - rem(100));
-}
-*/
